@@ -1,7 +1,7 @@
 let randomizingInterval;
 let isRandomizing = false;
 let entriesCleaned = [];
-let toggleButton = $('#assignSanta');
+let toggleButton = $('#toggleRandomizing');
 let entriesWrap = $('.entries');
 let messageWrap = $('.message');
 const enterKeys = ['Enter', 'NumpadEnter'];
@@ -20,7 +20,7 @@ const enterKeys = ['Enter', 'NumpadEnter'];
 		insertNewEntry();
 	}
 
-	$('body').on('click', '#assignSanta', function() {
+	$('body').on('click', '#toggleRandomizing', function() {
 		if (isRandomizing) {
 			stop();
 			$('#copyOrder').prop('disabled', false);
