@@ -45,7 +45,7 @@ const enterKeys = ['Enter', 'NumpadEnter'];
 		let entriesCopyList = '';
 		let i = 1;
 		$('.entry').each(function() {
-			entriesCopyList += i + '. ' + $(this).text() + ' giving to ' + $(this).next().attr('data-name') + "\n";
+			entriesCopyList += $(this).text() + ' giving to ' + $(this).next().attr('data-name') + "\n";
 			i++;
 		});
 
