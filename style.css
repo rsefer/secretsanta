@@ -1,0 +1,260 @@
+:root {
+	--color-red: #f00;
+	--color-green: #0a8344;
+	--color-1: var(--color-red);
+	--color-2: var(--color-red);
+	--color-3: var(--color-green);
+	--color-4: var(--color-green);
+	--color-5: var(--color-red);
+	--color-6: var(--color-red);
+	--color-7: var(--color-green);
+	--color-8: var(--color-green);
+	--color-9: var(--color-red);
+	--color-10: var(--color-red);
+	--color-11: var(--color-green);
+
+	--point-1: calc(100 / 24 / 2 * 1vw);
+	--point-2: calc(100 / 24 / 2 * 2vw);
+	--point-3: calc(100 / 24 / 2 * 3vw);
+	--point-4: calc(100 / 24 / 2 * 4vw);
+	--point-5: calc(100 / 24 / 2 * 5vw);
+	--point-6: calc(100 / 24 / 2 * 6vw);
+	--point-7: calc(100 / 24 / 2 * 7vw);
+	--point-8: calc(100 / 24 / 2 * 8vw);
+	--point-9: calc(100 / 24 / 2 * 9vw);
+	--point-10: calc(100 / 24 / 2 * 10vw);
+	--point-11: calc(100 / 24 / 2 * 11vw);
+	--point-12: calc(100 / 24 / 2 * 12vw);
+	--point-13: calc(100 / 24 / 2 * 13vw);
+	--point-14: calc(100 / 24 / 2 * 14vw);
+	--point-15: calc(100 / 24 / 2 * 15vw);
+	--point-16: calc(100 / 24 / 2 * 16vw);
+	--point-17: calc(100 / 24 / 2 * 17vw);
+	--point-18: calc(100 / 24 / 2 * 18vw);
+	--point-19: calc(100 / 24 / 2 * 19vw);
+	--point-20: calc(100 / 24 / 2 * 20vw);
+	--point-21: calc(100 / 24 / 2 * 21vw);
+	--point-22: calc(100 / 24 / 2 * 22vw);
+	--point-23: calc(100 / 24 / 2 * 23vw);
+	--point-24: calc(100 / 24 / 2 * 24vw);
+
+	--bounce-unit: 3em;
+}
+
+@keyframes rainbow {
+	0% {
+		box-shadow: inset 0 0 0 var(--point-1) var(--color-1), inset 0 0 0 var(--point-2) var(--color-2), inset 0 0 0 var(--point-3) var(--color-3), inset 0 0 0 var(--point-4) var(--color-4), inset 0 0 0 var(--point-5) var(--color-5), inset 0 0 0 var(--point-6) var(--color-6), inset 0 0 0 var(--point-7) var(--color-7), inset 0 0 0 var(--point-8) var(--color-8), inset 0 0 0 var(--point-9) var(--color-9), inset 0 0 0 var(--point-10) var(--color-10), inset 0 0 0 var(--point-11) var(--color-11), inset 0 0 0 var(--point-12) var(--color-1), inset 0 0 0 var(--point-13) var(--color-1), inset 0 0 0 var(--point-14) var(--color-2), inset 0 0 0 var(--point-15) var(--color-3), inset 0 0 0 var(--point-16) var(--color-4), inset 0 0 0 var(--point-17) var(--color-5), inset 0 0 0 var(--point-18) var(--color-6), inset 0 0 0 var(--point-19) var(--color-7), inset 0 0 0 var(--point-20) var(--color-8), inset 0 0 0 var(--point-21) var(--color-9), inset 0 0 0 var(--point-22) var(--color-10), inset 0 0 0 var(--point-23) var(--color-11), inset 0 0 0 var(--point-24) var(--color-1);
+	}
+	9.0909090909% {
+		box-shadow: inset 0 0 0 var(--point-1) var(--color-1), inset 0 0 0 var(--point-2) var(--color-1), inset 0 0 0 var(--point-3) var(--color-2), inset 0 0 0 var(--point-4) var(--color-3), inset 0 0 0 var(--point-5) var(--color-4), inset 0 0 0 var(--point-6) var(--color-5), inset 0 0 0 var(--point-7) var(--color-6), inset 0 0 0 var(--point-8) var(--color-7), inset 0 0 0 var(--point-9) var(--color-8), inset 0 0 0 var(--point-10) var(--color-9), inset 0 0 0 var(--point-11) var(--color-10), inset 0 0 0 var(--point-12) var(--color-11), inset 0 0 0 var(--point-13) var(--color-1), inset 0 0 0 var(--point-14) var(--color-1), inset 0 0 0 var(--point-15) var(--color-2), inset 0 0 0 var(--point-16) var(--color-3), inset 0 0 0 var(--point-17) var(--color-4), inset 0 0 0 var(--point-18) var(--color-5), inset 0 0 0 var(--point-19) var(--color-6), inset 0 0 0 var(--point-20) var(--color-7), inset 0 0 0 var(--point-21) var(--color-8), inset 0 0 0 var(--point-22) var(--color-9), inset 0 0 0 var(--point-23) var(--color-10), inset 0 0 0 var(--point-24) var(--color-11);
+	}
+	18.1818181818% {
+		box-shadow: inset 0 0 0 var(--point-1) var(--color-11), inset 0 0 0 var(--point-2) var(--color-1), inset 0 0 0 var(--point-3) var(--color-1), inset 0 0 0 var(--point-4) var(--color-2), inset 0 0 0 var(--point-5) var(--color-3), inset 0 0 0 var(--point-6) var(--color-4), inset 0 0 0 var(--point-7) var(--color-5), inset 0 0 0 var(--point-8) var(--color-6), inset 0 0 0 var(--point-9) var(--color-7), inset 0 0 0 var(--point-10) var(--color-8), inset 0 0 0 var(--point-11) var(--color-9), inset 0 0 0 var(--point-12) var(--color-10), inset 0 0 0 var(--point-13) var(--color-11), inset 0 0 0 var(--point-14) var(--color-1), inset 0 0 0 var(--point-15) var(--color-1), inset 0 0 0 var(--point-16) var(--color-2), inset 0 0 0 var(--point-17) var(--color-3), inset 0 0 0 var(--point-18) var(--color-4), inset 0 0 0 var(--point-19) var(--color-5), inset 0 0 0 var(--point-20) var(--color-6), inset 0 0 0 var(--point-21) var(--color-7), inset 0 0 0 var(--point-22) var(--color-8), inset 0 0 0 var(--point-23) var(--color-9), inset 0 0 0 var(--point-24) var(--color-10);
+	}
+	27.2727272727% {
+		box-shadow: inset 0 0 0 var(--point-1) var(--color-10), inset 0 0 0 var(--point-2) var(--color-11), inset 0 0 0 var(--point-3) var(--color-1), inset 0 0 0 var(--point-4) var(--color-1), inset 0 0 0 var(--point-5) var(--color-2), inset 0 0 0 var(--point-6) var(--color-3), inset 0 0 0 var(--point-7) var(--color-4), inset 0 0 0 var(--point-8) var(--color-5), inset 0 0 0 var(--point-9) var(--color-6), inset 0 0 0 var(--point-10) var(--color-7), inset 0 0 0 var(--point-11) var(--color-8), inset 0 0 0 var(--point-12) var(--color-9), inset 0 0 0 var(--point-13) var(--color-10), inset 0 0 0 var(--point-14) var(--color-11), inset 0 0 0 var(--point-15) var(--color-1), inset 0 0 0 var(--point-16) var(--color-1), inset 0 0 0 var(--point-17) var(--color-2), inset 0 0 0 var(--point-18) var(--color-3), inset 0 0 0 var(--point-19) var(--color-4), inset 0 0 0 var(--point-20) var(--color-5), inset 0 0 0 var(--point-21) var(--color-6), inset 0 0 0 var(--point-22) var(--color-7), inset 0 0 0 var(--point-23) var(--color-8), inset 0 0 0 var(--point-24) var(--color-9);
+	}
+	36.3636363636% {
+		box-shadow: inset 0 0 0 var(--point-1) var(--color-9), inset 0 0 0 var(--point-2) var(--color-10), inset 0 0 0 var(--point-3) var(--color-11), inset 0 0 0 var(--point-4) var(--color-1), inset 0 0 0 var(--point-5) var(--color-1), inset 0 0 0 var(--point-6) var(--color-2), inset 0 0 0 var(--point-7) var(--color-3), inset 0 0 0 var(--point-8) var(--color-4), inset 0 0 0 var(--point-9) var(--color-5), inset 0 0 0 var(--point-10) var(--color-6), inset 0 0 0 var(--point-11) var(--color-7), inset 0 0 0 var(--point-12) var(--color-8), inset 0 0 0 var(--point-13) var(--color-9), inset 0 0 0 var(--point-14) var(--color-10), inset 0 0 0 var(--point-15) var(--color-11), inset 0 0 0 var(--point-16) var(--color-1), inset 0 0 0 var(--point-17) var(--color-1), inset 0 0 0 var(--point-18) var(--color-2), inset 0 0 0 var(--point-19) var(--color-3), inset 0 0 0 var(--point-20) var(--color-4), inset 0 0 0 var(--point-21) var(--color-5), inset 0 0 0 var(--point-22) var(--color-6), inset 0 0 0 var(--point-23) var(--color-7), inset 0 0 0 var(--point-24) var(--color-8);
+	}
+	45.4545454545% {
+		box-shadow: inset 0 0 0 var(--point-1) var(--color-8), inset 0 0 0 var(--point-2) var(--color-9), inset 0 0 0 var(--point-3) var(--color-10), inset 0 0 0 var(--point-4) var(--color-11), inset 0 0 0 var(--point-5) var(--color-1), inset 0 0 0 var(--point-6) var(--color-1), inset 0 0 0 var(--point-7) var(--color-2), inset 0 0 0 var(--point-8) var(--color-3), inset 0 0 0 var(--point-9) var(--color-4), inset 0 0 0 var(--point-10) var(--color-5), inset 0 0 0 var(--point-11) var(--color-6), inset 0 0 0 var(--point-12) var(--color-7), inset 0 0 0 var(--point-13) var(--color-8), inset 0 0 0 var(--point-14) var(--color-9), inset 0 0 0 var(--point-15) var(--color-10), inset 0 0 0 var(--point-16) var(--color-11), inset 0 0 0 var(--point-17) var(--color-1), inset 0 0 0 var(--point-18) var(--color-1), inset 0 0 0 var(--point-19) var(--color-2), inset 0 0 0 var(--point-20) var(--color-3), inset 0 0 0 var(--point-21) var(--color-4), inset 0 0 0 var(--point-22) var(--color-5), inset 0 0 0 var(--point-23) var(--color-6), inset 0 0 0 var(--point-24) var(--color-7);
+	}
+	54.5454545455% {
+		box-shadow: inset 0 0 0 var(--point-1) var(--color-7), inset 0 0 0 var(--point-2) var(--color-8), inset 0 0 0 var(--point-3) var(--color-9), inset 0 0 0 var(--point-4) var(--color-10), inset 0 0 0 var(--point-5) var(--color-11), inset 0 0 0 var(--point-6) var(--color-1), inset 0 0 0 var(--point-7) var(--color-1), inset 0 0 0 var(--point-8) var(--color-2), inset 0 0 0 var(--point-9) var(--color-3), inset 0 0 0 var(--point-10) var(--color-4), inset 0 0 0 var(--point-11) var(--color-5), inset 0 0 0 var(--point-12) var(--color-6), inset 0 0 0 var(--point-13) var(--color-7), inset 0 0 0 var(--point-14) var(--color-8), inset 0 0 0 var(--point-15) var(--color-9), inset 0 0 0 var(--point-16) var(--color-10), inset 0 0 0 var(--point-17) var(--color-11), inset 0 0 0 var(--point-18) var(--color-1), inset 0 0 0 var(--point-19) var(--color-1), inset 0 0 0 var(--point-20) var(--color-2), inset 0 0 0 var(--point-21) var(--color-3), inset 0 0 0 var(--point-22) var(--color-4), inset 0 0 0 var(--point-23) var(--color-5), inset 0 0 0 var(--point-24) var(--color-6);
+	}
+	63.6363636364% {
+		box-shadow: inset 0 0 0 var(--point-1) var(--color-6), inset 0 0 0 var(--point-2) var(--color-7), inset 0 0 0 var(--point-3) var(--color-8), inset 0 0 0 var(--point-4) var(--color-9), inset 0 0 0 var(--point-5) var(--color-10), inset 0 0 0 var(--point-6) var(--color-11), inset 0 0 0 var(--point-7) var(--color-1), inset 0 0 0 var(--point-8) var(--color-1), inset 0 0 0 var(--point-9) var(--color-2), inset 0 0 0 var(--point-10) var(--color-3), inset 0 0 0 var(--point-11) var(--color-4), inset 0 0 0 var(--point-12) var(--color-5), inset 0 0 0 var(--point-13) var(--color-6), inset 0 0 0 var(--point-14) var(--color-7), inset 0 0 0 var(--point-15) var(--color-8), inset 0 0 0 var(--point-16) var(--color-9), inset 0 0 0 var(--point-17) var(--color-10), inset 0 0 0 var(--point-18) var(--color-11), inset 0 0 0 var(--point-19) var(--color-1), inset 0 0 0 var(--point-20) var(--color-1), inset 0 0 0 var(--point-21) var(--color-2), inset 0 0 0 var(--point-22) var(--color-3), inset 0 0 0 var(--point-23) var(--color-4), inset 0 0 0 var(--point-24) var(--color-5);
+	}
+	72.7272727273% {
+		box-shadow: inset 0 0 0 var(--point-1) var(--color-5), inset 0 0 0 var(--point-2) var(--color-6), inset 0 0 0 var(--point-3) var(--color-7), inset 0 0 0 var(--point-4) var(--color-8), inset 0 0 0 var(--point-5) var(--color-9), inset 0 0 0 var(--point-6) var(--color-10), inset 0 0 0 var(--point-7) var(--color-11), inset 0 0 0 var(--point-8) var(--color-1), inset 0 0 0 var(--point-9) var(--color-1), inset 0 0 0 var(--point-10) var(--color-2), inset 0 0 0 var(--point-11) var(--color-3), inset 0 0 0 var(--point-12) var(--color-4), inset 0 0 0 var(--point-13) var(--color-5), inset 0 0 0 var(--point-14) var(--color-6), inset 0 0 0 var(--point-15) var(--color-7), inset 0 0 0 var(--point-16) var(--color-8), inset 0 0 0 var(--point-17) var(--color-9), inset 0 0 0 var(--point-18) var(--color-10), inset 0 0 0 var(--point-19) var(--color-11), inset 0 0 0 var(--point-20) var(--color-1), inset 0 0 0 var(--point-21) var(--color-1), inset 0 0 0 var(--point-22) var(--color-2), inset 0 0 0 var(--point-23) var(--color-3), inset 0 0 0 var(--point-24) var(--color-4);
+	}
+	81.8181818182% {
+		box-shadow: inset 0 0 0 var(--point-1) var(--color-4), inset 0 0 0 var(--point-2) var(--color-5), inset 0 0 0 var(--point-3) var(--color-6), inset 0 0 0 var(--point-4) var(--color-7), inset 0 0 0 var(--point-5) var(--color-8), inset 0 0 0 var(--point-6) var(--color-9), inset 0 0 0 var(--point-7) var(--color-10), inset 0 0 0 var(--point-8) var(--color-11), inset 0 0 0 var(--point-9) var(--color-1), inset 0 0 0 var(--point-10) var(--color-1), inset 0 0 0 var(--point-11) var(--color-2), inset 0 0 0 var(--point-12) var(--color-3), inset 0 0 0 var(--point-13) var(--color-4), inset 0 0 0 var(--point-14) var(--color-5), inset 0 0 0 var(--point-15) var(--color-6), inset 0 0 0 var(--point-16) var(--color-7), inset 0 0 0 var(--point-17) var(--color-8), inset 0 0 0 var(--point-18) var(--color-9), inset 0 0 0 var(--point-19) var(--color-10), inset 0 0 0 var(--point-20) var(--color-11), inset 0 0 0 var(--point-21) var(--color-1), inset 0 0 0 var(--point-22) var(--color-1), inset 0 0 0 var(--point-23) var(--color-2), inset 0 0 0 var(--point-24) var(--color-3);
+	}
+	90.9090909091% {
+		box-shadow: inset 0 0 0 var(--point-1) var(--color-3), inset 0 0 0 var(--point-2) var(--color-4), inset 0 0 0 var(--point-3) var(--color-5), inset 0 0 0 var(--point-4) var(--color-6), inset 0 0 0 var(--point-5) var(--color-7), inset 0 0 0 var(--point-6) var(--color-8), inset 0 0 0 var(--point-7) var(--color-9), inset 0 0 0 var(--point-8) var(--color-10), inset 0 0 0 var(--point-9) var(--color-11), inset 0 0 0 var(--point-10) var(--color-1), inset 0 0 0 var(--point-11) var(--color-1), inset 0 0 0 var(--point-12) var(--color-2), inset 0 0 0 var(--point-13) var(--color-3), inset 0 0 0 var(--point-14) var(--color-4), inset 0 0 0 var(--point-15) var(--color-5), inset 0 0 0 var(--point-16) var(--color-6), inset 0 0 0 var(--point-17) var(--color-7), inset 0 0 0 var(--point-18) var(--color-8), inset 0 0 0 var(--point-19) var(--color-9), inset 0 0 0 var(--point-20) var(--color-10), inset 0 0 0 var(--point-21) var(--color-11), inset 0 0 0 var(--point-22) var(--color-1), inset 0 0 0 var(--point-23) var(--color-1), inset 0 0 0 var(--point-24) var(--color-2);
+	}
+	100% {
+		box-shadow: inset 0 0 0 var(--point-1) var(--color-2), inset 0 0 0 var(--point-2) var(--color-3), inset 0 0 0 var(--point-3) var(--color-4), inset 0 0 0 var(--point-4) var(--color-5), inset 0 0 0 var(--point-5) var(--color-6), inset 0 0 0 var(--point-6) var(--color-7), inset 0 0 0 var(--point-7) var(--color-8), inset 0 0 0 var(--point-8) var(--color-9), inset 0 0 0 var(--point-9) var(--color-10), inset 0 0 0 var(--point-10) var(--color-11), inset 0 0 0 var(--point-11) var(--color-1), inset 0 0 0 var(--point-12) var(--color-1), inset 0 0 0 var(--point-13) var(--color-2), inset 0 0 0 var(--point-14) var(--color-3), inset 0 0 0 var(--point-15) var(--color-4), inset 0 0 0 var(--point-16) var(--color-5), inset 0 0 0 var(--point-17) var(--color-6), inset 0 0 0 var(--point-18) var(--color-7), inset 0 0 0 var(--point-19) var(--color-8), inset 0 0 0 var(--point-20) var(--color-9), inset 0 0 0 var(--point-21) var(--color-10), inset 0 0 0 var(--point-22) var(--color-11), inset 0 0 0 var(--point-23) var(--color-1), inset 0 0 0 var(--point-24) var(--color-1);
+	}
+}
+
+@keyframes bounce {
+	25% {
+		transform: translate(calc(1 * var(--bounce-unit)), calc(1 * 0.25 * var(--bounce-unit)));
+	}
+
+	50% {
+		transform: translate(0%, 0px);
+	}
+
+	75% {
+		transform: translate(calc(-1 * var(--bounce-unit)), calc(-1 * 0.25 * var(--bounce-unit)));
+	}
+}
+
+body {
+	min-height: calc(var(--vh, 10px) * 100);
+	font-size: 16px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
+
+.is-randomizing {
+	overflow-x: hidden;
+	box-shadow: inset 0 0 0 var(--point-1) var(--color-2), inset 0 0 0 var(--point-2) var(--color-3), inset 0 0 0 var(--point-3) var(--color-4), inset 0 0 0 var(--point-4) var(--color-5), inset 0 0 0 var(--point-5) var(--color-6), inset 0 0 0 var(--point-6) var(--color-7), inset 0 0 0 var(--point-7) var(--color-8), inset 0 0 0 var(--point-8) var(--color-9), inset 0 0 0 var(--point-9) var(--color-10), inset 0 0 0 var(--point-10) var(--color-11), inset 0 0 0 var(--point-11) var(--color-1), inset 0 0 0 var(--point-12) var(--color-1), inset 0 0 0 var(--point-13) var(--color-2), inset 0 0 0 var(--point-14) var(--color-3), inset 0 0 0 var(--point-15) var(--color-4), inset 0 0 0 var(--point-16) var(--color-5), inset 0 0 0 var(--point-17) var(--color-6), inset 0 0 0 var(--point-18) var(--color-7), inset 0 0 0 var(--point-19) var(--color-8), inset 0 0 0 var(--point-20) var(--color-9), inset 0 0 0 var(--point-21) var(--color-10), inset 0 0 0 var(--point-22) var(--color-11), inset 0 0 0 var(--point-23) var(--color-1), inset 0 0 0 var(--point-24) var(--color-1);
+	animation: rainbow 250ms infinite;
+	user-select: none;
+}
+
+.is-randomizing main {
+	animation: bounce 350ms infinite;
+	animation-timing-function: linear;
+}
+
+main {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 2rem;
+	margin: 0px auto;
+	max-width: 600px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+main > * {
+	flex-basis: 100%;
+}
+
+.santa {
+	flex-basis: auto;
+	margin: 0px auto;
+	transform: translate(-1rem, 0px);
+	width: 150px;
+}
+
+h1 {
+	margin: 1rem 0px 1.5rem;
+	text-align: center;
+}
+
+.entries {
+	flex-basis: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	gap: 0.5rem;
+	counter-reset: entries;
+}
+
+.entries-list-copy {
+	display: none;
+}
+
+.entry {
+	position: relative;
+	padding: 0.25em;
+	width: 100%;
+	background: rgba(255 255 255 / 0.75);
+	border: 1px solid black;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.entry:before {
+	counter-increment: entries;
+	content: counter(entries) ".";
+	position: absolute;
+	top: 50%;
+	right: calc(100% + 0.375em);
+	transform: translate(0px, -50%);
+	font-size: 0.625em;
+	text-align: right;
+}
+
+.entry:empty:after {
+	content: 'Item';
+	position: absolute;
+	top: 0.25em;
+	left: 50%;
+	transform: translate(-50%, 0px);
+	opacity: 0.5;
+}
+
+.entry:focus {
+	outline: 0px;
+}
+
+.giftee {
+	margin-bottom: 1rem;
+	flex-basis: 100%;
+	text-align: center;
+}
+
+.message {
+	color: red;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.message:empty {
+	display: none;
+}
+
+button {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 0.25rem;
+	width: 100%;
+	-webkit-appearance: none;
+	appearance: none;
+	padding: 0.25em;
+	color: #000;
+	border-radius: 0.25rem;
+	border: 1px solid currentColor;
+}
+
+button:not([disabled]):hover {
+	opacity: 0.65;
+	cursor: pointer;
+}
+
+button:not([disabled]):active {
+	opacity: 0.8;
+	transform: translate(1px, 1px);
+}
+
+button[disabled] {
+	opacity: 0.2;
+}
+
+button svg {
+	display: block;
+	width: 1em;
+	height: 1em;
+	font-size: 1em;
+}
+
+#assignSanta {
+	text-transform: uppercase;
+	font-size: 2rem;
+}
+
+#addEntry,
+#clearEntries,
+#copyOrder {
+	flex-basis: calc((100% - 1rem) / 3);
+}
+
+.is-randomizing #addEntry,
+.is-randomizing #clearEntries,
+.is-randomizing #copyOrder {
+	display: none;
+}
