@@ -177,7 +177,7 @@ h1 {
 }
 
 .entry:empty:after {
-	content: 'Item';
+	content: 'Name';
 	position: absolute;
 	top: 0.25em;
 	left: 50%;
